@@ -1,0 +1,17 @@
+echo "# REST-ASSURED-API-TESTING" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Murugesan7/REST-ASSURED-API-TESTING.git
+git push -u origin main
+
+
+
+----------------------------------------------------------------
+
+git remote add origin https://github.com/Murugesan7/REST-ASSURED-API-TESTING.git
+git branch -M main
+git push -u origin main
+
+
