@@ -17,7 +17,7 @@ public class CreatePOSTMethod {
 	@Test(priority = 1)
 	void testPostUsingHashMap() {
 		
-		HashMap h = new HashMap<>();
+		HashMap h = new HashMap<Object, Object>();
 		
 		
 		h.put("name", "Murugesan");

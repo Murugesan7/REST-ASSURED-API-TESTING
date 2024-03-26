@@ -33,8 +33,8 @@ public class Beginning {
 	void createUser() {
 		
 		HashMap<String,String> h = new HashMap<String,String>();
-		h.put("name", "Sukum32rwar");
-		h.put("email", "sukumar1werfweq2345@gmail.com");
+		h.put("name", "Sukum32rwa4545r");
+		h.put("email", "sukumar1werfweq2345uyy@gmail.com");
 		h.put("address","Mumbai");
 		
 	id=	given()
@@ -74,7 +74,7 @@ public class Beginning {
 			;
 		}
 	 
-	 @Test(priority = 3, dependsOnMethods = {"updateUser"})
+	 @Test(priority = 3 , dependsOnMethods = {"updateUser"} )
 		void deleteUser() {
 			
 			
